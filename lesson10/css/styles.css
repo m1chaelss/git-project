@@ -307,7 +307,7 @@ body {
 }
 
 .cards-icons-items:hover .cii-hover-description{
-	display: flex;
+	/*display: flex;*/
 	cursor: pointer;
 	opacity: 1;
 }
