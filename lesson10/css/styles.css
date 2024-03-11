@@ -8,7 +8,6 @@ body {
 	/* font-weight: 400;
 	font-size: 16px; */
 }
-
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -22,7 +21,6 @@ body {
 }
 
 /* ? HEADER */
-
 .header {
 	padding: 24px 0 25px;
 	border-bottom: 1px solid #ECECEC;
@@ -289,7 +287,6 @@ body {
 	width: 100%;
 	object-fit: cover;
 }
-
 .cii-hover-description {
 	color: white;
 	position: absolute;
@@ -305,9 +302,11 @@ body {
 	opacity: 0;
 	transition: opacity 0.5s ease-out;
 }
-
 .cards-icons-items:hover .cii-hover-description{
 	/*display: flex;*/
 	cursor: pointer;
 	opacity: 1;
+}
+.burger-menu {
+	display: none;
 }
